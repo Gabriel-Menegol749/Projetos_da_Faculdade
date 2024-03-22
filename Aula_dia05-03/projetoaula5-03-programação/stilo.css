@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(246, 213, 164);
+}
+
+header{
+    background-color: brown;
+    padding: 30px;
+
+}
+
+button{
+    height: 20px;
+    width: 120px;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+    color: bisque;
+}
+
+
+ul{
+    list-style-type: square;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.listadeInteresses{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.listadeInteresses div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.listadeInteresses img{
+    width: 250px;
+    height: 380px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.link{
+    margin: 50px;
+}
+    
