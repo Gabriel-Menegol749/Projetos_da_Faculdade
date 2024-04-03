@@ -1,0 +1,53 @@
+body{
+    background-color:rgb(255, 202, 132);
+}
+
+.painel{
+    position: fixed;
+    inset: 0;
+    margin: 20px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px;
+    border-radius: 30px;
+    background-color: rgb(65, 18, 18);
+    box-shadow: 15px 15px;
+}
+
+.painel button{
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    box-shadow: 5px 5px;
+    border-radius: 10px;
+}
+.painel .quadrado{
+    width: 200px;
+    height: 200px;
+    transition: all 0.3s;
+    border-radius: 10px;
+    margin: 10px
+}
+
+#vermelho{
+    background-color: red;
+}
+#verde{
+    background-color: green;
+}
+#azul{
+    background-color: blue;
+}
+#preto{
+    background-color: black;
+}
+
+#defalut{
+    position: absolute;
+    bottom: 60px;
+    left: 80px;
+    width: 170px;
+    height: 40px;
+}

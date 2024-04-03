@@ -1,0 +1,68 @@
+<!--
+    Atividade 4 (Anterior):
+
+    Crie um site com 4 quadrados de cores diferentes de tamanho 200 x 200 px. O site deve conter botões que permitem:
+        Aumentar o tamanho de todos os quadrados (até 400px)
+        Diminuir o tamanho de todos os quadrados (até 50px)
+        Retornar ao tamanho padrão (200px)
+
+    Atividade 5 (Atual):
+
+    Complemente o site anterior para que a opção de aumentar o quadrado seja individual,
+    ou seja ao clicar no quadrado apenas seu próprio tamanho aumenta. Os controles gerais 
+    ainda devem existir.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto4</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+        <section class="painel">
+            <button id="DiminuiTamanho">Diminuir Todos os Quadrados</button>
+
+            <div class="quadrado" id="vermelho">
+                <div class="botoesindividuais">
+                    <button class="aumentatamanhoindiv" onclick="aumentavermelho()">+</button>
+                    <button class="diminuitamanhoindiv" onclick="diminuivermelho()">-</button>
+                    <button class="defalutINDIV" onclick="defaultvermelho()">*</button>
+                </div>
+            </div>
+
+            <div class="quadrado" id="verde">
+                <div class="botoesindividuais">
+                    <button class="aumentatamanhoindiv" onclick="aumentaverde()">+</button>
+                    <button class="diminuitamanhoindiv" onclick="diminuiverde()">-</button>
+                    <button class="defalutINDIV" onclick="defaultverde()">*</button>
+                </div>
+            </div>
+
+            <div class="quadrado" id="azul">
+                <div class="botoesindividuais">
+                    <button class="aumentatamanhoindiv" onclick="aumentaazul()">+</button>
+                    <button class="diminuitamanhoindiv" onclick="diminuiazul()">-</button>
+                    <button class="defalutINDIV" onclick="defaultazul()">*</button>
+                </div>
+            </div>
+
+            <div class="quadrado" id="preto">
+                <div class="botoesindividuais">
+                    <button class="aumentatamanhoindiv" onclick="aumentapreto()">+</button>
+                    <button class="diminuitamanhoindiv" onclick="diminuipreto()">-</button>
+                    <button class="defalutINDIV" onclick="defaultpreto()">*</button>
+                </div>
+            </div>
+
+            <button id="AumentaTamanho">Aumentar Todos os Quadrados</button>
+
+            <button id="defalut">Tamanho original</button>
+        </section>
+
+    <script src="Javito.js"></script>
+</body>
+</html>
