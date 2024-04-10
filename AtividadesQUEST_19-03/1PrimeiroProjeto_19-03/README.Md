@@ -1,4 +1,4 @@
-# Projeto 1
+# Primeiro Projeto
 
 Foi realizado para ter uma introdução a JavaScript, que nos ensinou como fazer
 um input simples, que permite digitar o nome do usuário, que ao clicar no botão 
