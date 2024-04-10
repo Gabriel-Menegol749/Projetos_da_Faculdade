@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(91, 86, 86);
+}
+.menu {
+    background-color: rgb(216, 216, 216);
+    width: 600px;
+    height: 500px;
+    position: fixed;
+    margin: auto;
+    inset: 0;
+    border-radius: 20px;
+    box-shadow: 10px 5px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Conversor{
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+#textoCelcius{
+    font-size: 30px;
+}
+#SliderCelcius{
+    width: 80%;
+    margin: 30px;
+}
+
+#textoFarenheit{
+    font-size: 30px;
+}
+#SliderFahrenheit{
+    width: 80%;
+    margin: 30px;
+}

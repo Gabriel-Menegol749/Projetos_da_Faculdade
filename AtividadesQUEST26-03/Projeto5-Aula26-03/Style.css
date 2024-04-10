@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(91, 86, 86);
+}
+.menu {
+    background-color: rgb(216, 216, 216);
+    width: 600px;
+    height: 500px;
+    position: fixed;
+    margin: auto;
+    inset: 0;
+    border-radius: 20px;
+    box-shadow: 10px 5px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Titulo{
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+#Texto{
+    color: rgb(76, 0, 255);
+    font-size: 18px;
+}
+#background{
+    width: 500px;
+    height: 200px;
+    background-color: rgb(167, 166, 166);
+    border-radius: 20px;
+    box-shadow: inset 0 0 10px rgba(0,0,0,095);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.alteracores{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px;
+}
+
+.alteracortexto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.alteracorBackground{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#textotexto{
+    font-size: 20px;
+}
+#cortexto{
+    width: 200px;
+    height: 60px;
+}
+#textobackground{
+    font-size: 20px;
+}
+#corbackground{
+    width: 200px;
+    height: 60px;
+}

@@ -1,0 +1,81 @@
+<!--
+    Atividade 3:
+
+    Crie um site com formulário de nome e opções do tipo radio para sexo. Ao enviar/clicar,
+    deve ser adicionado na tela um novo nome com uma cor específica de acordo com o sexo selecionado-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Projeto3</title>
+</head>
+<body>
+
+    <section class="telaLogin">
+
+        <!--Um caractere invisível que da um espaçamento no texto do h1-->
+        <h1>Seja Bem-Vindo(a)! Informe seu<br> ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎Nome e seu Gênero.</h1>
+
+
+        <input type="text" id="nome"></inpput>
+
+        <div class="radioButtons">
+            <div class="div1">
+
+                <label for="Homem">
+                    <input type="radio" name='Sexo' value='Homem'  id="Homem">
+                    <span>Homem.</span>
+                </label>
+
+                <label for="Mulher">
+                    <input type="radio" name='Sexo' value='Mulher'  id="Mulher">
+                    <span>Mulher.</span>
+                </label>
+
+                <label for="Nãobin">
+                    <input type="radio" name='Sexo' value='Nãobin'  id="Nãobin">
+                    <span>Não Binário.</span>
+                </label>
+            </div>
+
+            <div class="div2">
+
+                <label for="Nãoident">
+                    <input type="radio" name='Sexo' value='Prefiro Não Informar'  id="Nãoident">
+                    <span>Prefiro não Identificar.</span>
+                </label>
+
+                <label for="Trans">
+                    <input type="radio" name='Sexo' value='Transexual'  id="Trans">
+                    <span>Transexual.</span>
+                </label>
+
+                <label for="Outros">
+                    <input type="radio" name='Sexo' value='Outros'  id="Outros">
+                    <span>Outros.</span>
+                </label>
+
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button class="addNomeLista" onclick ="AddNomeLista()">Adicionar.</button>
+            <button class="LimpaLista" onclick ="LimpaLista()">Limpar Lista.</button>
+        </div>
+        
+
+        <h2 id="tituloconected">Pessoas Conectadas:</h2>
+
+        <section class="conectados">
+            <ul id="listadePessoas">
+            </ul>
+        </section>
+    </section>
+
+
+    <script src="Javito.js"></script>
+</body>
+</html>

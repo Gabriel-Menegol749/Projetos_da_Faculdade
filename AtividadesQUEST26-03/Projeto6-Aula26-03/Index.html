@@ -1,0 +1,35 @@
+<!--
+
+    Atividade 6:
+
+    Crie um site contendo 2 range sliders e duas informações textuais/numéricas. Esses elementos
+    mostram valores convertidos entre graus Celsius e Fahrenheit. Ao alterar os sliders (que variam
+    de -100ºC a +200 ºC e -148ºF a 392ºC) os valores e a posição no outro slider deve ser alterada de acordo.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Projeto6</title>
+</head>
+<body>
+
+    <section class="menu">
+        <h1 class="Conversor">Conversor de Celcius para Fahrenheit!</h1>
+
+        <label for="" id="textoCelcius">Celcius</label>
+        <label for="" id="valorCel">25° C</label>
+        <input type="range" min="-100" max="200" value="25" id="SliderCelcius">
+
+        <label for="" id="textoFarenheit">Fahrenheit</label>
+        <label for="" id="valorFAH">25° C</label>
+        <input type="range" min="-148" max="392" value="25" id="SliderFahrenheit">
+
+    </section>
+
+    <script src="Javito.js"></script>
+</body>
+</html>

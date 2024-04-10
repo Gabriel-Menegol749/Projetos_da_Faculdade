@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(173, 173, 174);
+}
+
+.titulodomenu{
+    width: 200px;
+    height: 80px;
+    background-color: rgb(255, 248, 250);
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px;
+
+    position: absolute;
+    left: -10px;
+    top: -50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    padding: 0;
+    z-index: 1;
+
+}
+
+.menu {
+    background-color: rgb(216, 216, 216);
+    width: 900px;
+    height: 380px;
+    position: fixed;
+    margin: auto;
+    inset: 0;
+    top: -80px;
+    border-radius: 20px;
+    box-shadow: 10px 5px 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: center;
+}
+
+.Item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+}
+
+
+.Pastel{
+    justify-content: space-between
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+}
+
+.Item button {
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background: none;
+    margin-bottom: 5px;
+    margin: 5px;
+}
+
+.totaldeitens{
+    font-size: 35px;
+
+}
+.gastos{
+    font-size: 30px;
+    position: absolute;
+    bottom: -180px;
+}
+.gastos h1{
+    margin: 15px 0;
+}
+
+.total{
+    font-size: 90px;
+    position: absolute;
+    bottom: -270px;
+    right: -10px;
+}

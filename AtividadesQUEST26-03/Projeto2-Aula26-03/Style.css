@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(78, 72, 72)
+    ;
+}
+.telaLogin{
+    background-color: rgb(255, 128, 0);
+    width: 600px;
+    height: 400px;
+    position: fixed;
+    margin: auto;
+    inset: 0;
+    border-radius: 40px;
+    box-shadow: 20px 20px 80px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.telaLogin h1{
+    font-size: 50px;
+    margin: 0;
+
+}
+.telaLogin h2{
+    font-size: 40px;
+}
+
+.telaLogin input{
+    margin: 5px;
+    border-radius: 8px;
+    width: 400px;
+    height: 20px;
+    padding: 5px;
+}
+
+.senha{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.senha button{
+    background: none;
+    border: none;
+    margin-left: -40px;
+    position: absolute;
+    right: 10px;
+    top: 2px;
+}
+.senha #icone{
+    width: 30px;
+    height: 35px;
+}
+#Login{
+    width: 200px;
+    height: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: rgb(24, 21, 21);
+    color: rgb(2, 255, 2);
+}

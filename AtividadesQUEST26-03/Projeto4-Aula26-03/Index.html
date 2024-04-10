@@ -1,0 +1,86 @@
+<!--
+    Atividade 4:
+
+    Crie um site contendo 5 itens (fixos) com seu preço. Para cada item deve haver uma caixa de número para marcar
+    quantos daquele tem foram consumidos. Um botão de calcular/finalizar deve mostrar o consumo, valor de gorjeta
+    (10% do consumo) e total da conta. (Antes de clicar no botão a seção do pagamento não deve ser exibida e ao alterar
+    o valor das caixas de texto o total não deve ser recalculado automaticamente
+
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Projeto4</title>
+</head>
+<body>
+
+    <section class="menu">
+        <section class="titulodomenu">
+            <h1>Menu:</h1>
+        </section>
+
+        <div class="Item Pastel">
+            <div class="button-container">
+                <!--utilizei caracteres invisiveis-->
+                <h1>Pastel - R$5.50　　　　</h1>
+                <button id="Adicionarpastel">✅</button>
+                <button id="Removerpastel">❌</button>
+            </div>
+            <h1 class="textoQuant">Quantidade: 0</h1>
+        </div>
+
+        <div class="Item Torrada">
+            <div class="button-container">
+                <h1>Torrada  - R$5.50　　　</h1>
+                <button class="AdicionarTorrada">✅</button>
+                <button class="RemoverTorrada">❌</button>
+            </div>
+            <h1 class="textoQuant">Quantidade: 0</h1>
+        </div>
+
+        <div class="Item Torta">
+            <div class="button-container">
+                <h1>Torta -  R$9.50 　　　　</h1>
+                <button class="AdicionarTorta">✅</button>
+                <button class="RemoverTorta">❌</button>
+            </div>
+            <h1 class="textoQuant">Quantidade: 0</h1>
+        </div>
+
+        <div class="Item Refrigerante">
+            <div class="button-container">
+                <h1>Refrigerante - R$4.50　</h1>
+                <button class="AdicionarRefrigerante">✅</button>
+                <button class="RemoverRefrigerante">❌</button>
+            </div>
+            <h1 class="textoQuant">Quantidade: 0</h1>
+        </div>
+
+        <div class="Item Café">
+            <div class="button-container">
+                <h1>Café com Leite  - R$3.50</h1>
+                <button class="AdicionarCafécmLeite">✅</button>
+                <button class="RemoverCafécmLeite">❌</button>
+            </div>
+            <h1 class="textoQuant">Quantidade: 0</h1>
+        </div>
+
+        <section class="Caclulos">
+            <div class="gastos">
+                <h1 class="totaldeitens">Total De Itens: 0.</h1>
+                <h1 class="Compra">Compra: R$0.00</h1>
+                <h1 class="Gorjeta">Gorjeta: R$0.00</h1>
+            </div>
+            <h1 class="total">Total: R$0.00</h1>
+        </section>
+    </section>
+
+
+
+    <script src="Javito.js"></script>
+</body>
+</html>
