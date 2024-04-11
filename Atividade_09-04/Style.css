@@ -18,7 +18,7 @@ header{
     font-size: 50px;
     background: none;
 }
-.menu{
+#botaomenu{
     border: none;
 }
 #IconeMenu{
@@ -26,6 +26,7 @@ header{
     height: 40px;
     margin: 10px;
     transition: display 0.3s ease;
+    border: none;
 }
 
 #Lista{
