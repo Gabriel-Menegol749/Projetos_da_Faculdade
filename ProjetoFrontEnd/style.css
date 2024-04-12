@@ -1,6 +1,8 @@
 *{
     margin: 0;
 }
+
+/*configuração do cabeçalho do site*/
 #cabecalioTelaLogin{
     display: flex;
     justify-content: space-between;
@@ -32,6 +34,63 @@
     background: none;
     border: none;
 }
+/*Final configuração do cabeçalho do site*/
+
+/*Baner Incial*/
+body{
+    background-image: url(Sheets/background.jpg);
+    background-size: cover;
+}
+
+.PubINICIAL{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.textoPROMO{
+    display: flex;
+    justify-content: center;
+    color: beige;
+}
+
+.filmesANUNCIO{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.bannerFilme{
+    width: 30px;
+    height: 90px;
+    background-color: aqua;
+    margin: 40px;
+}
+/*Final Baner Inicial*/
+
+
+/*Filmes Disponíveis*/
+
+/*Final Filmes Disponíveis*/
+
+/*Planos Financeiros*/
+.planosDoMAX{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.planofinan{
+    background-color:bisque;
+    width: 30px;
+    height: 40px;
+    margin: 30px;
+    border-radius: 5px;
+}
+
+/*Final Planos Financeiros*/
 
 
 
@@ -39,9 +98,9 @@
 
 
 
-
-
-
+/*Rodapé*/
 footer{
     background-color: rgba(0, 0, 61, 0.83);
 }
+
+/*Final Rodapé*/
