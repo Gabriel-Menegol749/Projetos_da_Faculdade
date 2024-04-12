@@ -1,73 +1,87 @@
-*{
-    background-color: bisque;
-}
-body{
-    margin: 5;
+/* Estilos CSS */
+body {
+    margin: 5px; /* Adicionei "px" para especificar a unidade de medida */
     max-width: 1500px;
     min-width: 400px;
+    background-color: bisque;
 }
 
-header{
+header {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(157, 156, 156);
 }
 
-#TituloPagina{
+#TituloPagina {
     font-size: 50px;
     background: none;
 }
-#botaomenu{
+
+#botaomenu {
     border: none;
+    background-color: bisque;
 }
-#IconeMenu{
+
+#IconeMenu {
     width: 40px;
     height: 40px;
     margin: 10px;
     transition: display 0.3s ease;
     border: none;
+    background-color: bisque;
 }
 
-#Lista{
-    transition: display 0.3s ease;
+.menu {
+    position: fixed;
+    top: 140px;
+    left: -200px;
+    width: 200px;
+    height: 12vh;
+    background-color: rgb(252, 205, 149);
+    transition: left 0.4s ease;
 }
 
+@media screen and (max-width: 700px) {
+    .menu {
+        left: -200px;
+    }
+}
 
-.Menores{
+#Lista {
+    list-style-type: none;
+}
+
+@media screen and (min-width: 700px) {
+    #IconeMenu {
+        display: none;
+    }
+}
+
+.Menores {
     display: flex;
     justify-content: space-between;
-    margin: 10px;
+    margin: 30px 10px 10px 10px;
 }
-.BarraMenor{
+
+.BarraMenor {
     background-color: blue;
     width: 30%;
     height: 5vh;
 }
 
-.Maiores{
+.Maiores {
     display: flex;
     justify-content: space-between;
     margin: 10px;
 }
 
-.BarraMaior{
+.BarraMaior {
     background-color: rgb(0, 0, 58);
     width: 45%;
     height: 8vh;
 }
 
-@media screen and (min-width: 700px){
-    #IconeMenu{
-        display: none;
-
-    }
+ul { /* Corrigindo o seletor para a tag ul */
+    /* Adicione os estilos desejados para a lista aqui */
 }
-@media screen and (max-width:700px){
-    #Lista{
-        display: none;
-
-    }
-}
-
-
