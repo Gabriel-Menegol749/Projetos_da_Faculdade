@@ -8,7 +8,7 @@
     align-items: center;
     width: 100%;
     height: 10vh;
-    background-color: rgba(0, 0, 40, 0.896);
+    background-color: rgba(0, 0, 35, 0.94);
     backdrop-filter: blur(2px);
     position: sticky;
     top: 0;
@@ -20,8 +20,9 @@
     margin: 10px;
 }
 .botaologinregistrar{
-    position: left;
     margin: 10px;
+    padding: 10px;
+    align-items: center;
 }
 .ASSINAR{
     width: 150px;
@@ -30,12 +31,19 @@
     background-color: rgb(72, 121, 255);
     border-radius: 10px;
 }
+.ASSINAR:hover{
+    background-color: rgb(47, 79, 169);
+}
 .ENTRAR{
-    height: 20px;
-    width: 80px;
+    width: 100px;
+    height: 40px;
     color: aliceblue;
     background: none;
     border: none;
+    border-radius: 10px;
+}
+.ENTRAR:hover{
+    background-color: rgb(84, 84, 84);
 }
 /*Final configuração do cabeçalho do site*/
 
@@ -49,11 +57,22 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 40px;
+    margin: 0;
+}
+.PubINICIAL::before{
+    height: 100vh;
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url(Sheets/backgroundMAX.png);
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px);
+    z-index: -1;
 }
 #logoMaxdobannerInicial{
     width: 400px;
-    height: 100px;
+    height: 120px;
     margin-top: 120px;
     margin-bottom: 30px;
 }
@@ -72,12 +91,16 @@ body{
 }
 .Assinaturas{
     margin-top: 20px;
-    width: 160px;
+    width: 180px;
     height: 40px;
     border-radius: 10px;
+    border: none;
     background-color: rgb(72, 121, 255);
     color: beige;
-    font-size: 20px;
+    font-size: 15px;
+}
+.Assinaturas:hover{
+    background-color: rgb(51, 84, 176);
 }
 .textoPROMO{
     margin-top: 250px;
@@ -100,10 +123,8 @@ body{
 .bannerFilme{
     width: 300px;
     height: 550px;
-    background-color: aqua;
     margin: 1px;
 }
-
 .bannerFilme:nth-child(1){
     background-image: url(Sheets/HoradeAventura.jpg);
     background-size: cover;
@@ -170,11 +191,61 @@ body{
     margin: 20px
 }
 .planofinan{
-    background-color:bisque;
+    background-color:rgb(255, 255, 255);
     width: 360px;
     height: 350px;
     margin: 5px;
     border-radius: 5px;
+    padding: 20px;
+
+    justify-content: center;
+    align-items: center;
+}
+.planofinan h1{
+    margin: 10px 10px 10px 0;
+    font-size: 20px;
+}
+.planosDoMAX img{
+    width: 12px;
+    height: 15px;
+}
+.planosDoMAX .beneficio{
+    display: flex;
+    gap: 10px;
+    margin: 20px 20px 20px 0px;
+}
+.conteudoFinanceiro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.planofinan:nth-of-type(1) .conteudoFinanceiro{
+    margin-top: 100px;
+}
+.planofinan:nth-of-type(2) .conteudoFinanceiro{
+    margin-top: 60px;
+}
+.planofinan:nth-of-type3(3) .conteudoFinanceiro{
+    margin-top: 80px;
+}
+.conteudoFinanceiro span{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(0, 0, 38);
+}
+.planosDoMAX button{
+    width: 220px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: rgb(0, 48, 179);
+}
+.planosDoMAX span{
+    font-weight: bold;
 }
 .textinhoFinanceiroexplicativo{
     margin-bottom: 50px;
@@ -256,9 +327,5 @@ footer{
     height: 20px;
     padding-right: 30px;
     padding-left: 30px;
-}
-.logosdoFooterLogin img{
-
-    color: white;
 }
 /*Final do Footer*/
