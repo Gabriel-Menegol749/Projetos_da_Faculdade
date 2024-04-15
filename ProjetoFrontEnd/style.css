@@ -1,17 +1,15 @@
 *{
     margin: 0;
 }
-
 /*configuração do cabeçalho do site*/
 #cabecalioTelaLogin{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     width: 100%;
     height: 10vh;
     background-color: rgba(0, 0, 40, 0.896);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(2px);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -25,7 +23,6 @@
     position: left;
     margin: 10px;
 }
-
 .ASSINAR{
     width: 150px;
     height: 40px;
@@ -93,7 +90,6 @@ body{
 /*Final Baner Inicial*/
 
 /*Filmes Disponíveis*/
-
 .filmesANUNCIO{
     display: flex;
     justify-content: center;
@@ -123,6 +119,16 @@ body{
 }
 .botoesdosPlanos{
     display: flex;
+    margin: 40px;
+    border: 30px;
+}
+.planosMensais{
+    width: 200px;
+    border-radius: 40px;
+}
+.planosAnuais{
+    width: 200px;
+    border-radius: 40px;
 }
 .planosDoMAX{
     display: flex;
@@ -206,6 +212,6 @@ footer{
 .redesociais{
     width: 40px;
     height: 20px;
-    padding: 20px;
+    padding: 15px;
 }
 /*Final do Footer*/
