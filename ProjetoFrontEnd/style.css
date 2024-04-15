@@ -103,6 +103,36 @@ body{
     background-color: aqua;
     margin: 1px;
 }
+.bannerFilme:nth-child(1){
+    background-image: url(Sheets/HoradeAventura.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.bannerFilme:nth-child(2){
+    background-image: url(Sheets/bannerLargadosepelados.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.bannerFilme:nth-child(3){
+    background-image: url(Sheets/bannerLastOfUs.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.bannerFilme:nth-child(4){
+    background-image: url(Sheets/evilDead.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.bannerFilme:nth-child(5){
+    background-image: url(Sheets/bannerBatima.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.bannerFilme:nth-child(6){
+    background-image: url(Sheets/bannerMesi.jpg);
+    background-size: cover;
+    background-position: center;
+}
 /*Final Filmes Disponíveis*/
 
 /*Planos Financeiros*/
