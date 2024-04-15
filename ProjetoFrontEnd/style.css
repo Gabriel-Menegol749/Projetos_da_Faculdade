@@ -11,9 +11,15 @@
     width: 100%;
     height: 10vh;
     background-color: rgba(0, 0, 40, 0.896);
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
-#Logomax{
-    margin: 20px;
+#Logomaxcabeçalho{
+    width: 100px;
+    height: 30px;
+    margin: 10px;
 }
 .botaologinregistrar{
     position: left;
@@ -41,7 +47,6 @@ body{
     background-image: url(Sheets/background.jpg);
     background-size: cover;
 }
-
 .PubINICIAL{
     display: flex;
     flex-direction: column;
@@ -49,58 +54,158 @@ body{
     align-items: center;
     margin: 40px;
 }
-
+#logoMaxdobannerInicial{
+    width: 400px;
+    height: 100px;
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+.textoBOASVINDAS{
+    color: beige;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.textoBOASVINDAS2{
+    color: beige;
+    font-size: 30px;
+    font-weight: 50;
+}
+.textoBOASVINDAS2 span{
+    font-weight:bold;
+}
+.Assinaturas{
+    margin-top: 20px;
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(72, 121, 255);
+    color: beige;
+    font-size: 20px;
+}
 .textoPROMO{
+    margin-top: 250px;
     display: flex;
     justify-content: center;
     color: beige;
+    font-size: 20px;
+    text-align: center;
 }
+/*Final Baner Inicial*/
+
+/*Filmes Disponíveis*/
 
 .filmesANUNCIO{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-top: 120px;
 }
 .bannerFilme{
-    width: 30px;
-    height: 90px;
+    width: 300px;
+    height: 550px;
     background-color: aqua;
-    margin: 40px;
+    margin: 1px;
 }
-/*Final Baner Inicial*/
-
-
-/*Filmes Disponíveis*/
-
 /*Final Filmes Disponíveis*/
 
 /*Planos Financeiros*/
+.planosFinanceirosDoMAX{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+.TextoFinanceiro{
+    color: beige;
+    font-size: 30px;
+}
+.botoesdosPlanos{
+    display: flex;
+}
 .planosDoMAX{
     display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 20px
+}
+.planofinan{
+    background-color:bisque;
+    width: 360px;
+    height: 350px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.textinhoFinanceiroexplicativo{
+    margin-bottom: 50px;
+    font-size: 16px;
+    color: rgba(215, 215, 211, 0.697);
+}
+.textinhoFinanceiroexplicativo a{
+    text-decoration: none;
+    color:rgb(0, 98, 255)
+}
+/*Final Planos Financeiros*/
+
+/*categoriasFimDoSite*/
+.fimdoLogin{
+    background-color: rgba(0, 0, 181, 0.83);
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
-.planofinan{
-    background-color:bisque;
-    width: 30px;
-    height: 40px;
+.categoriasLogin{
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.ListaCategoriafooter{
     margin: 30px;
-    border-radius: 5px;
 }
+.categoriafooter{
+    border: none;
+    background: none;
+    color: beige;
+    font-weight: bold;
+}
+.butfooterpol{
+    border: none;
+    background: none;
+    color: beige;
+    font-weight: bold;
+}
+.DireitosAutorais{
+    font-size: 16px;
+    color: beige;
+    text-align: center;
+}
+#DireitosAutorais{
+    color: beige;
+    text-align: center;
+    margin-top: 20px;
+}
+/*Final categorias FimDoSite*/
 
-/*Final Planos Financeiros*/
-
-
-
-
-
-
-
-/*Rodapé*/
+/*Footer*/
 footer{
-    background-color: rgba(0, 0, 61, 0.83);
+    background-color: rgba(0, 0, 61, 0.83);;
+    width: 100%;
+    height: 60px;
 }
-
-/*Final Rodapé*/
+.logosdoFooterLogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.redesociais{
+    width: 40px;
+    height: 20px;
+    padding: 20px;
+}
+/*Final do Footer*/
