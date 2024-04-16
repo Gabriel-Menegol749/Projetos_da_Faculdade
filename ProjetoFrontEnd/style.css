@@ -98,6 +98,7 @@ body{
     background-color: rgb(72, 121, 255);
     color: beige;
     font-size: 15px;
+    font-weight: bold;
 }
 .Assinaturas:hover{
     background-color: rgb(51, 84, 176);
@@ -214,6 +215,41 @@ body{
     gap: 10px;
     margin: 20px 20px 20px 0px;
 }
+.textoPromo{
+    color: aqua;
+    font-size: 15px;
+    padding: 0;
+    margin: 20px 0px 0px 0px;
+    margin-left: 230px;
+}
+.botoesdosPlanos{
+    width: 420px;
+    height: 40px;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: rgb(19, 54, 150);
+    margin-top: 10px;
+
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.planosMensais{
+    width: 300px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 20px;
+    background: none;
+    border: none;
+    color: white;
+}
+.planosAnuais{
+    width: 300px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+}
 .conteudoFinanceiro{
     display: flex;
     flex-direction: column;
@@ -229,11 +265,19 @@ body{
 .planofinan:nth-of-type3(3) .conteudoFinanceiro{
     margin-top: 80px;
 }
+
 .conteudoFinanceiro span{
     font-size: 40px;
     font-weight: bold;
-    color: rgb(0, 0, 38);
+    color: rgb(1, 1, 74);
+    margin: 0;
 }
+.precoExplic {
+    font-size: 18px;
+    color: rgb(0, 0, 142);
+    margin-bottom: 10px;
+}
+
 .planosDoMAX button{
     width: 220px;
     font-size: 15px;
