@@ -231,7 +231,14 @@ body{
     margin-top: 10px;
 
     border: 2px solid transparent;
-    transition: border-color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.2s ease;
+}
+.botaoSelecionado {
+    background-color: white;
+    color: black;
+}
+.botoesdosPlanos.bordaAtivada{
+    border-color: white;
 }
 
 .planosMensais{
