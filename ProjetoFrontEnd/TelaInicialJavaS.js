@@ -1,23 +1,15 @@
-/*
-Terei que adicionar estass funções nos botões mais adiante.
 
+/*Botões dos demais arquivos*/
+const botaoEntrar = document.getElementById("ENTRAR");
+const botaoRegistrar = document.getElementById("ASSINAR")
 
-<div class="conteudoFinanceiro">
-<h1 class="precoPlano"><span>R$29,90</span>/mês</h1>
+botaoEntrar.addEventListener("click", function(){
+    window.location.href ="TelaLoginHTML.html";
+});
 
-<div class="conteudoFinanceiro">
-<h1 class="precoPlano"><span>R$39,90</span>/mês</h1>
-
-<button class="planoEscolhido">ESCOLHA SEU PLANO</button>
-</div>
-
-<div class="conteudoFinanceiro">
-<h1 class="precoPlano"><span>R$55,90</span>/mês</h1>
-
-<button class="planoEscolhido">ESCOLHA SEU PLANO</button>
-
-*/
-
+botaoRegistrar.addEventListener("click", function(){
+    window.location.href="TelaRegistroHTML.html";
+});
 /*Planos Financeiros*/
 const botaoFinanceiroMensal = document.getElementById('planosMensais');
 const botaoFinanceiroAnual = document.getElementById('planosAnuais');
