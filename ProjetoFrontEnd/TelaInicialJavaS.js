@@ -1,13 +1,19 @@
 
     /*Botões dos demais arquivos*/
     const botaoEntrar = document.getElementById("ENTRAR");
-    const botaoRegistrar = document.getElementById("ASSINAR")
+    const botaoRegistrar = document.getElementById("ASSINAR");
+    const botaoRegistrarPubInicial = document.getElementById("Assinaturas")
+
+    Assinaturas
 
     botaoEntrar.addEventListener("click", function(){
         window.location.href ="TelaLoginHTML.html";
     });
 
     botaoRegistrar.addEventListener("click", function(){
+        window.location.href="TelaRegistroHTML.html";
+    });
+    botaoRegistrarPubInicial.addEventListener("click", function(){
         window.location.href="TelaRegistroHTML.html";
     });
     /*Planos Financeiros*/
