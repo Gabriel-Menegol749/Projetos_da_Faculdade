@@ -1,3 +1,95 @@
 body{
-    background-color: rgb(26, 24, 24);
+    margin: 0;
+    background: rgb(0,9,163);
+    background: linear-gradient(0deg, rgb(3, 8, 23) 20%, rgba(0,19,129,1) 40%, rgba(0,9,163,1) 94%);
 }
+/*Começo do cabeçalho do login*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(0, 0, 35, 0.94);
+    backdrop-filter: blur(0px);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+#Logomaxcabeçalho{
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+}
+.cadastro{
+    color: white;
+    background: none;
+    border: none;
+    margin: 80px;
+    font-size: 20px;
+}
+/*Fim do cabeçalho do login*/
+
+/*Aba de login*/
+.TelaLogin{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    color: white;
+}
+.textoComeca{
+    font-size: 30px;
+    text-align: center;
+}
+.LoginTexto{
+    font: 20px;
+    text-align: center;
+}
+.Login{
+    background-color: rgb(63, 63, 163);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.textoEntrar{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.email{
+    margin-top: 2px;
+    border-radius: 5px;
+}
+.senha{
+
+}
+
+
+/*Final da aba de login*/
+
+/*Rodapé*/
+footer{
+    background-color: rgba(27, 27, 48, 0.83);;
+    width: 100%;
+    height: 15vh;
+}
+.direitosAutorais{
+    margin-right: 20px;
+}
+.conteudofooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.redessociaisfooter img{
+    width: 20px;
+    height: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+/*Final do rodapé*/
