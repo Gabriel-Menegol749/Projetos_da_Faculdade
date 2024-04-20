@@ -48,9 +48,7 @@ header{
     height: auto;
     color: white;
 }
-.conteudoLogin{
-    width: 40%;
-}
+
 .textoComeca{
     font-size: 50px;
     text-align: center;
@@ -101,11 +99,27 @@ input{
     border-color: white;
     width: 100%;
     height: 30px;
+    padding: 2px;
+}
+#RevelaSenha{
+    border: none;
+    background: none;
+    position: relative;
+}
+#olhoIcon{
+    width: 20px;
+    height: auto;
+    right: 5px;
+    top: -26px;
+    position: absolute;
+    cursor: pointer;
 }
 .LinkEsqueciSenha{
     color: rgb(0, 247, 255);
+
     text-decoration: none;
     margin: 30px 0px 30px 0px;
+    width: auto;
 }
 .LinkEsqueciSenha:hover{
     text-decoration:underline;
