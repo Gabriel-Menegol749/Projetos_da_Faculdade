@@ -4,7 +4,7 @@ const botaoRevelaSenha = document.getElementById("RevelaSenha");
 const iconeOlho = document.getElementById("olhoIcon");
 
 botaoCadastro.addEventListener("click", function(){
-    window.location.href = "TelaRegistroHTML.html";
+    window.location.href = "TelaPlanosRegistroHTML.html";
 });
 
 botaoRevelaSenha.addEventListener("click", function(){

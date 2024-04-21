@@ -11,10 +11,10 @@
     });
 
     botaoRegistrar.addEventListener("click", function(){
-        window.location.href="TelaRegistroHTML.html";
+        window.location.href="TelaPlanosRegistroHTML.html";
     });
     botaoRegistrarPubInicial.addEventListener("click", function(){
-        window.location.href="TelaRegistroHTML.html";
+        window.location.href="TelaPlanosRegistroHTML.html";
     });
     /*Planos Financeiros*/
     const botaoFinanceiroMensal = document.getElementById('planosMensais');
