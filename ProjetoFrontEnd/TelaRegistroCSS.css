@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    color:white;
+}
+
+body{
+    background: rgb(0,9,163);
+    background: linear-gradient(0deg, rgb(3, 8, 23) 20%, rgb(17, 24, 65) 40%, rgb(19, 22, 73) 94%);
+    margin: 0;
+}
+/*Começo do cabeçalho do login*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(0, 0, 35, 0.94);
+    backdrop-filter: blur(0px);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+#Logomaxcabeçalho{
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+}
+.entrar{
+    color: white;
+    background: none;
+    border: none;
+    margin: 60px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 50px 10px 50px;
+    border-radius: 10px;
+
+
+}
+.entrar:hover{
+    background-color: rgba(160, 159, 159, 0.386);
+}
+/*Fim do cabeçalho do login*/
+
+
+
+/*Rodapé*/
+footer{
+    padding: 20px;
+    height: 15vh;
+}
+.direitosAutorais{
+    color: white;
+    margin:20px;
+    margin-right: 5px;
+    text-align: right;
+}
+.conteudofooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.redessociaisfooter img{
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+.politicasFimDoSite{
+    background:none;
+    border: none;
+    color: rgb(182, 181, 181);
+    font-size: 15px;
+}
+.politicasFimDoSite:hover{
+    color: white;
+    font-size: 16px;
+}
+/*Final Rodapé*/

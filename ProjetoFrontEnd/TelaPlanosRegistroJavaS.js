@@ -17,6 +17,6 @@ botaoContinuar.addEventListener("click", () =>{
     if(opcaoSelecionada === null){
         avisoNaoSelecionado.style.display = "block";
     } else{
-
+        window.location.href = "TelaRegistroHTML.html";
     }
 })
