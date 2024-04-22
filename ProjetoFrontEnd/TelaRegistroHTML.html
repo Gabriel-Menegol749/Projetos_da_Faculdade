@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +15,52 @@
         <button class="entrar" id="entrar">Entrar</button>
     </header>
 
+    <section class="telaRegistro" id="telaRegistro">
+        <h1 class="criarconta">Criar conta</h1>
+        <p class="textinhoabaixo">Você usará isso para assistir em seus dispositivos favoritos. <br><span>*Indica um campo obrigatório</span></p>
 
+        <div class="inputs">
+            <label for="inputEmail">Endereço de e-mail <span>*</span></label>
+            <input type="email" id="inputEmail">
+        </div>
+
+        <div class="inputs">
+            <label for="inputEmailRepete">Confirmar endereço de e-mail <span>*</span></label>
+            <input type="email" id="inputEmailRepete">
+        </div>
+
+        <div class="registroSenha">
+            <div class="inputs">
+                <label for="senhaConta">Senha <span>*</span></label>
+                <input type="password" id="senhaConta">
+                <button id="RevelaSenha">
+                <img src="Sheets/eye-solid.svg" id="olhoIcon" style="filter: invert(100%); color: #ffffff;" alt="">
+                </button>
+                <p class="textinhosenha">Pelo menos 10 caracteres com no máximo 4 caracteres repetidos em <br>sequência.</p>
+            </div>
+        </div>
+
+        <div class="inputs">
+            <label for="nome">Nome <span>*</span></label>
+            <input type="text" id="nome">
+        </div>
+
+        <div class="inputs">
+            <label for="Sobrenome">Sobrenome <span>*</span></label>
+        <input type="text" id="Sobrenome">
+        </div>
+
+        <p class="textoExplicacaoCriarconta">Ao selecionar “Criar conta”, você confirma que tem 18 anos de idade <br>
+            ou mais e concorda com nossos <a href="https://www.max.com/terms-of-use" target="_blank">Termos de Uso</a> e nossa <br>
+            <a href="https://www.max.com/privacy" target="_blank">Política de Privacidade</a> , permitindo que o Max e suas respectivas <br>
+            <a href="https://www.wbdprivacy.com/policycenter/affiliates/" target="_blank">Afiliadas</a> utilizem suas informações para enviar atualizações, anúncios <br>
+            e ofertas. Se você permitir que uma criança use esta conta, precisaremos <br>
+            tratar as informações pessoais dela para fornecer os serviços. Para obter <br>
+            mais informações, consulte a <a href="https://www.max.com/privacy/children" target="_blank">Política de Privacidade Infantil.</a>
+        </p>
+
+        <button class="CriarConta" id="CriarConta">Criar conta</button>
+    </section>
 
 
     <footer>

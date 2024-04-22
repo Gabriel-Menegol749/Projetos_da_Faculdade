@@ -42,8 +42,31 @@ header{
     background-color: rgba(160, 159, 159, 0.386);
 }
 /*Fim do cabeçalho do login*/
-
-
+.telaRegistro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    padding: 20px;
+}
+.telaRegistro .inputs{
+    display: flex;
+    flex-direction: column;
+}
+#RevelaSenha{
+    border: none;
+    background: none;
+    position: relative;
+}
+#olhoIcon{
+    width: 20px;
+    height: auto;
+    right: 5px;
+    top: -26px;
+    position: absolute;
+    cursor: pointer;
+}
 
 /*Rodapé*/
 footer{
