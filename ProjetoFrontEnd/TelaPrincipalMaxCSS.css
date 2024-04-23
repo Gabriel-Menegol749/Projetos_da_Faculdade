@@ -1,26 +1,379 @@
 *{
     margin: 0;
+    color: white;
 }
 
 body{
     background: rgb(16,17,38);
     background: linear-gradient(0deg, rgba(16,17,38,1) 11%, rgba(0,10,68,1) 84%);
 }
-/*Começo do cabeçalho do login*/
+
+/*Começo do cabeçalho do site principal*/
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     height: 10vh;
-    background-color: rgba(0, 0, 35, 0.94);
+    background-color: rgba(0, 0, 0, 0.684);
     backdrop-filter: blur(0px);
     position: sticky;
     top: 0;
-    z-index: 1000;
+    padding: 10px;
+    z-index: 1;
 }
 #Logomaxcabeçalho{
     width: 100px;
     height: 30px;
     margin: 10px;
 }
+.categoriasCabecalho{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 20px 0px 20px;
+}
+.listacategorias{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 0px 20px 0px 20px;
+    margin: 30px;
+    font-size: 20px;
+}
+.listacategorias li{
+    margin: 0px 20px 0px 20px;
+    color: rgb(192, 192, 192);
+}
+.listacategorias li:hover{
+    color: white;
+    cursor: pointer;
+}
+.categoriaSelecionada{
+    border-bottom: 2px solid white;
+}
+
+.hbologocabecalho {
+    width: 40px;
+    height: auto;
+    filter: invert(80%);
+}
+.hbologocabecalho:hover {
+    filter: invert(100%);
+}
+
+.listaConfig{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 30px;
+
+}
+.listaConfig svg{
+    width: 20px;
+    height: 20px;
+    margin: 0px 10px 0px 20px;
+}
+.listaConfig svg:hover{
+    cursor: pointer;
+}
+/*Final cabeçalho*/
+
+/*Banner filme anuncio*/
+body{
+    overflow-x: hidden;
+}
+.anuncioFilmeTela{
+    background-image: url(Sheets/bannerLastOfUsSitePrincipal.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.telaDescricao{
+    position: absolute;
+    inset: 45vh 80vh 0vh 10vh;
+    display: flex;
+    flex-direction: column;
+    width: 500px
+}
+
+.telaDescricao .logodoconteudo{
+    width: 500px;
+    height: auto;
+    margin-bottom: 30px;
+}
+.minidescricao{
+    display: flex;
+    vertical-align: middle;
+}
+.telaDescricao #logoIdadeIndicada{
+    width: 20px;
+    height: 18px;
+}
+.minidescricao p{
+    color: rgb(208, 208, 208);
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.irParaConteudo{
+    border-radius: 5px;
+    background-color: rgb(52, 52, 52);
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px 0px 50px 0px;
+    width: 200px;
+}
+.irParaConteudo:hover{
+    background-color: rgb(100, 100, 100);
+    cursor: pointer;
+}
+
+/*fim banner filme anuncio*/
+
+/*Filmes e series*/
+.recomendados{
+    margin-top: 90vh;
+    padding-left: 40px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.Top10series{
+    padding-left: 40px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.top10filmes{
+    padding-left: 40px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.banner{
+    width: 200px;
+    height: 300px;
+    margin: 8px;
+    background-color: rgb(62, 165, 255);
+    border: 2px solid transparent;
+    display: inline-block;
+}
+.banner:hover{
+    border: 2px solid white;
+}
+/*Fim das configs gerais dos filmes e series*/
+
+
+/*configdos banners dos recomendados*/
+.recomendados .banner:nth-child(1){
+    background-image: url(Sheets/bannerTelaPrincipal/theoffice.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.recomendados .banner:nth-child(2){
+    background-image: url(Sheets/bannerTelaPrincipal/rickandmorty.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.recomendados .banner:nth-child(3){
+    background-image: url(Sheets/bannerTelaPrincipal/sebebernaocase.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.recomendados .banner:nth-child(4){
+    background-image: url(Sheets/bannerTelaPrincipal/itacoisa.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.recomendados .banner:nth-child(5){
+    background-image: url(Sheets/bannerTelaPrincipal/invocaçãodomal.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.recomendados .banner:nth-child(6){
+    background-image: url(Sheets/bannerTelaPrincipal/coringa.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.recomendados .banner:nth-child(7){
+    background-image: url(Sheets/bannerTelaPrincipal/gumball.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.recomendados .banner:nth-child(8){
+    background-image: url(Sheets/bannerTelaPrincipal/supernatural.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.recomendados .banner:nth-child(9){
+    background-image: url(Sheets/bannerTelaPrincipal/evildeadrising.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.recomendados .banner:nth-child(10){
+    background-image: url(Sheets/bannerTelaPrincipal/scoobydoo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.recomendados .banner:nth-child(11){
+    background-image: url(Sheets/bannerTelaPrincipal/godzilakong.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.recomendados .banner:nth-child(12){
+    background-image: url(Sheets/bannerTelaPrincipal/mkmk.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/*Fim config dos banners dos recomendados*/
+
+/*cofig top10 series*/
+.Top10series .banner:nth-child(1){
+    background-image: url(Sheets/bannerTelaPrincipal/youngsheldom.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.Top10series .banner:nth-child(2){
+    background-image: url(Sheets/bannerTelaPrincipal/ladosombrio.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.Top10series .banner:nth-child(3){
+    background-image: url(Sheets/bannerTelaPrincipal/ninjakamui.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.Top10series .banner:nth-child(4){
+    background-image: url(Sheets/bannerTelaPrincipal/apromessa.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.Top10series .banner:nth-child(5){
+    background-image: url(Sheets/bannerTelaPrincipal/daPontePrala.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.Top10series .banner:nth-child(6){
+    background-image: url(Sheets/bannerTelaPrincipal/sierramadre.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.Top10series .banner:nth-child(7){
+    background-image: url(Sheets/bannerTelaPrincipal/forcademulher.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.Top10series .banner:nth-child(8){
+    background-image: url(Sheets/bannerTelaPrincipal/extremecouping.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.Top10series .banner:nth-child(9){
+    background-image: url(Sheets/bannerTelaPrincipal/dcthouse.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.Top10series .banner:nth-child(10){
+    background-image: url(Sheets/bannerTelaPrincipal/quilosmortais.webp);
+    background-size: cover;
+    background-position: center;
+}
+/*fim config top10 series*/
+
+
+/*cofig top10 filmes*/
+.top10filmes .banner:nth-child(1){
+    background-image: url(Sheets/bannerTelaPrincipal/todosmenosvc.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.top10filmes .banner:nth-child(2){
+    background-image: url(Sheets/bannerTelaPrincipal/medo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.top10filmes .banner:nth-child(3){
+    background-image: url(Sheets/bannerTelaPrincipal/posessoes.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.top10filmes .banner:nth-child(4){
+    background-image: url(Sheets/bannerTelaPrincipal/padre.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.top10filmes .banner:nth-child(5){
+    background-image: url(Sheets/bannerTelaPrincipal/2012.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.top10filmes .banner:nth-child(6){
+    background-image: url(Sheets/bannerTelaPrincipal/confissoes.webp);
+    background-size: cover;
+    background-position: center;
+}
+.top10filmes .banner:nth-child(7){
+    background-image: url(Sheets/bannerTelaPrincipal/oatirador.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.top10filmes .banner:nth-child(8){
+    background-image: url(Sheets/bannerTelaPrincipal/cacadorderecompensas.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.top10filmes .banner:nth-child(9){
+    background-image: url(Sheets/bannerTelaPrincipal/wonka.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.top10filmes .banner:nth-child(10){
+    background-image: url(Sheets/bannerTelaPrincipal/barbie.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/*fim config top10 filmes*/
+
+
+
+/*Rodapé*/
+footer{
+    padding: 20px;
+    height: 15vh;
+}
+.direitosAutorais{
+    color: white;
+    margin:20px;
+    margin-right: 5px;
+    text-align: right;
+    font-size: 15px;
+}
+.conteudofooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.redessociaisfooter img{
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+.politicasFimDoSite{
+    background:none;
+    border: none;
+    color: rgb(182, 181, 181);
+    font-size: 12px;
+}
+.politicasFimDoSite:hover{
+    color: white;
+    font-size: 14px;
+}
+/*Final Rodapé*/
