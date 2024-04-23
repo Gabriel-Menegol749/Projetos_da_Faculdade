@@ -20,12 +20,13 @@ header{
     position: sticky;
     top: 0;
     padding: 10px;
-    z-index: 1;
+    z-index: 2;
 }
 #Logomaxcabeçalho{
     width: 100px;
     height: 30px;
     margin: 10px;
+    cursor: pointer;
 }
 .categoriasCabecalho{
     display: flex;
@@ -75,6 +76,47 @@ header{
 }
 .listaConfig svg:hover{
     cursor: pointer;
+}
+.listaConfig #LogoPerfilcabecalio{
+    width: 20px;
+    height: 20px;
+}
+
+.telaMenuUsuario{
+    position: absolute;
+    top: 4%;
+    right: 40px;
+    font-size: 25px;
+    background-color: rgb(98, 98, 98);
+    padding: 10px;
+    border-radius: 10px;
+    display: none;
+}
+.telaMenuUsuario .fotonomeperfil{
+    background-color: black;
+    top: 0;
+}
+hr{
+    margin: 5px;
+}
+.telaMenuUsuario a{
+    text-decoration: none;
+    color: rgb(171, 171, 171);
+}
+
+.telaMenuUsuario .fotonomeperfil{
+    display: flex;
+}
+#LogoPerfil{
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+}
+.telaMenuUsuario .logout{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5  px;
 }
 /*Final cabeçalho*/
 

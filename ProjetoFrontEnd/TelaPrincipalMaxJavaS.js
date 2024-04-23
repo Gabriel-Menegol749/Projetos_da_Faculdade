@@ -9,6 +9,26 @@ function vaitopoSIte(){
 
 /*Banner Filmes Recomendados*/
 
+/*Menu perfil */
+const fotoperfilMenu = document.getElementById("LogoPerfilcabecalio");
+const menuperfil = document.querySelector(".telaMenuUsuario");
+const botaoLogout = document.getElementById("logout");
+
+fotoperfilMenu.addEventListener('mouseenter', () =>{
+    menuperfil.style.display = 'block';
+});
+menuperfil.addEventListener('mouseleave', () =>{
+    menuperfil.style.display = 'none';
+});
+botaoLogout.addEventListener('click', function(){
+    window.location.href = "TelaInicialHTML.html"
+})
+
+
+
+
+
+
 /*Recomendados*/
 const recomendados = document.querySelector(".recomendados");
 const botaoMostrarDireitarecomend = document.querySelector(".MostrarmaisDireitarecomend");
@@ -98,3 +118,4 @@ botaoMostrarEsquerdafilmes.addEventListener('click', function(){
     botaoMostrarEsquerdafilmes.style.display = 'block';
 });
 /*fim filmes*/
+

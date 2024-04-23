@@ -23,6 +23,7 @@ const avisoErroVerific = document.getElementById("aviso");
 
 
 botaoCriarConta.addEventListener("click", function(){
+
     window.location.href = "TelaPrincipalMaxHTML.html";
 })
 /*Botão revela senha*/
