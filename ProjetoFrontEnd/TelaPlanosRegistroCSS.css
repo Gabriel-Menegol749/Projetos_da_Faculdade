@@ -80,16 +80,14 @@ body{
 }
 .Mensal:hover{
     border-bottom: 3px solid white;
-
 }
-
-
 .servicosPlanos{
     display: flex;
     justify-content: space-around;
     margin: 15px 0px 40px 0px;
     width: 90%;
     height: auto;
+    flex-wrap: wrap;
 }
 .Planos{
     display: flex;
@@ -98,9 +96,10 @@ body{
     align-items: center;
     text-align: center;
 
-    width: 400px;
+    flex: 0 0 400px;
     border-radius: 10px;
     padding: 20px;
+    margin: 5px;
     background: rgb(19,20,51);
     background: linear-gradient(0deg, rgba(19,20,51,1) 4%, rgba(28,29,66,1) 34%, rgba(16,27,88,1) 88%);
     border:2px solid transparent;
