@@ -87,7 +87,8 @@ header{
     top: 4%;
     right: 40px;
     font-size: 25px;
-    background-color: rgb(98, 98, 98);
+    background-color: rgba(59, 59, 59, 0.727);
+
     padding: 10px;
     border-radius: 10px;
     display: none;
@@ -140,7 +141,30 @@ body{
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.315) 65%, rgb(4, 8, 26) 100%);
     z-index: 1;
 }
+.mudaBannerFilmeDireito{
+    width: 20px;
+    height: auto;
+    position: absolute;
+    top: 50vh;
+    right: 20px;
+    background-color: rgba(88, 88, 88, 0.715);
+    padding: 30px 0px 30px 0px;
+    border-radius: 10px;
+    cursor: pointer;
 
+}
+.mudaBannerFilmeEsquerdo{
+    width: 20px;
+    height: auto;
+    position: absolute;
+    top: 50vh;
+    left: 20px;
+    background-color: rgba(88, 88, 88, 0.715);
+    padding: 30px 0px 30px 0px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
 .telaDescricao{
     position: absolute;
     inset: 45vh 80vh 0vh 10vh;

@@ -23,11 +23,17 @@ menuperfil.addEventListener('mouseleave', () =>{
 botaoLogout.addEventListener('click', function(){
     window.location.href = "TelaInicialHTML.html"
 })
+/*FInal Meu perfil*/
 
+/*Banner inicial*/
+const botaoVaipraDireita = document.getElementById("mudaBannerFilmeDireito");
+const botaoVaipraEsquerda = document.getElementById("mudaBannerFilmeEsquerdo");
+const wallpaperBanner = document.querySelector(".anuncioFilmeTela");
 
-
-
-
+botaoVaipraDireita.addEventListener('click', function(){
+    wallpaperBanner.style.backgroundImage = "url(Sheets/bannerTwoandahalfMan.jpg)";
+})
+/*FInal Banner inicial*/
 
 /*Recomendados*/
 const recomendados = document.querySelector(".recomendados");
