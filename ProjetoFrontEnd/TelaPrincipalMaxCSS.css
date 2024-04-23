@@ -5,7 +5,7 @@
 
 body{
     background: rgb(16,17,38);
-    background: linear-gradient(0deg, rgba(16,17,38,1) 11%, rgba(0,10,68,1) 84%);
+    background: linear-gradient(0deg, rgba(16,17,38,1) 11%, rgb(2, 4, 18) 84%);
 }
 
 /*Começo do cabeçalho do site principal*/
@@ -90,13 +90,22 @@ body{
     width: 100%;
     height: 100vh;
 }
+.anuncioFilmeTela::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.315) 65%, rgb(4, 8, 26) 100%);
+    z-index: 1;
+}
 
 .telaDescricao{
     position: absolute;
     inset: 45vh 80vh 0vh 10vh;
     display: flex;
     flex-direction: column;
-    width: 500px
+    width: 500px;
+    z-index: 2;
 }
 
 .telaDescricao .logodoconteudo{
@@ -142,28 +151,115 @@ body{
     padding-left: 40px;
     overflow-x: auto;
     white-space: nowrap;
+    overflow-x: hidden;
 }
 .Top10series{
     padding-left: 40px;
     overflow-x: auto;
     white-space: nowrap;
+    overflow-x: hidden;
 }
 .top10filmes{
     padding-left: 40px;
     overflow-x: auto;
     white-space: nowrap;
+    overflow-x: hidden;
 }
 .banner{
     width: 200px;
     height: 300px;
     margin: 8px;
     background-color: rgb(62, 165, 255);
-    border: 2px solid transparent;
+    border: 2px solid rgb(14, 14, 67);
     display: inline-block;
+
 }
 .banner:hover{
     border: 2px solid white;
 }
+
+/*botaorecomendado*/
+.MostrarmaisEsquerdarecomend{
+    width: 20px;
+    height: auto;
+    position: absolute;
+    top: 125vh;
+    left: 20px;
+    background-color: rgba(88, 88, 88, 0.715);
+    padding: 30px 0px 30px 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: none;
+}
+.MostrarmaisDireitarecomend{
+    width: 20px;
+    height: auto;
+    position: absolute;
+    top: 125vh;
+    right: 20px;
+    background-color: rgba(88, 88, 88, 0.715);
+    padding: 30px 0px 30px 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: none;
+}
+/*botaorecomendado*/
+
+
+/*botaoseries*/
+.MostrarmaisEsquerdaseries{
+    width: 20px;
+    height: auto;
+    position: absolute;
+    top: 175vh;
+    left: 20px;
+    background-color: rgba(88, 88, 88, 0.715);
+    padding: 30px 0px 30px 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: none;
+}
+.MostrarmaisDireitaseries{
+    width: 20px;
+    height: auto;
+    position: absolute;
+    top: 175vh;
+    right: 20px;
+    background-color: rgba(88, 88, 88, 0.715);
+    padding: 30px 0px 30px 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: none;
+}
+/*botaoseries*/
+
+/*botaofilme*/
+.MostrarmaisEsquerdafilmes{
+    width: 20px;
+    height: auto;
+    position: absolute;
+    top: 225vh;
+    left: 20px;
+    background-color: rgba(88, 88, 88, 0.715);
+    padding: 30px 0px 30px 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: none;
+}
+.MostrarmaisDireitafilmes{
+    width: 20px;
+    height: auto;
+    position: absolute;
+    top: 225vh;
+    right: 20px;
+    background-color: rgba(88, 88, 88, 0.715);
+    padding: 30px 0px 30px 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: none;
+}
+/*botaofilme*/
+
 /*Fim das configs gerais dos filmes e series*/
 
 
@@ -336,7 +432,6 @@ body{
     background-size: cover;
     background-position: center;
 }
-
 /*fim config top10 filmes*/
 
 
