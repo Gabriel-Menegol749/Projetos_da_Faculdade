@@ -214,15 +214,18 @@ body{
 .planosDoMAX{
     display: flex;
     width: 80%;
-    margin: 20px
+    margin: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .planofinan{
+    flex: 0 0 300px;
     background-color:rgb(255, 255, 255);
-    width: 360px;
     height: 350px;
-    margin: 5px;
     border-radius: 5px;
     padding: 20px;
+    margin: 5px;
 }
 .planofinan h1{
     margin: 10px 10px 10px 0;
