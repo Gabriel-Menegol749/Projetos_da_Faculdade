@@ -1,0 +1,35 @@
+/*Questão 2: Crie um servidor que responde uma página HTML contendo
+uma mensagem de boas-vindas, estilizada com elemento HTML <h1> e CSS.*/
+
+const http = require('http');
+const fs = require('fs');
+const path = require('path');
+
+const server = http.createServer((req, res) => {
+    const filePath = req.url === '/' ? 'index.html' : req.url.substring(1);
+    const extname = path.extname(filePath);
+    let contentType = 'text/html';
+
+    switch (extname) {
+        case '.js':
+            contentType = 'text/javascript';
+            break;
+        case '.css':
+            contentType = 'text/css';
+            break;
+    }
+
+    fs.readFile(filePath, (err, data) => {
+        if (err) {
+            res.writeHead(404);
+            res.end("404 Not Found");
+        } else {
+            res.writeHead(200, { 'Content-Type': contentType });
+            res.end(data);
+        }
+    });
+});
+
+server.listen(3000, '127.0.0.1', () => {
+    console.log('Listening on 127.0.0.1:3000');
+});

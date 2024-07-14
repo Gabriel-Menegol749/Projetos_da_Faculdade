@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(18, 0, 84);
+}
+.login{
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.abaLogin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    padding: 5px;
+    background-color: rgb(40, 0, 185);
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 2px 5px 50px 1px;
+    transition: 0.8s;
+}
+.abaLogin:hover{
+    box-shadow: 2px 10px 120px 5px;
+}
+
+#TextSejaBemvindo{
+    font-size: 50px;
+    margin: 0;
+}
+#textoAlt{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.dados{
+    align-items: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.nomeLogin{
+    width: 100%;
+
+}
+.Senha{
+    width: 100%;
+}
+
+.botaoLogin{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: black;
+    margin: 20px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+}

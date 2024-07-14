@@ -1,0 +1,35 @@
+<!-- Questão 5: Crie um servidor que permite ao usuário inserir mensagens em
+uma caixa de texto. Ao enviar as mensagens, o cliente não deve ser atualizado
+(impedir o refresh da página), mas deve enviar a mensagem para o servidor e
+limpar o campo de texto. O servidor deve receber as mensagens e salvá-las
+em um arquivo .json.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest5</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+    <section class="Zap">
+        <div class="AbadeMensagens">
+            <h1>Servidor de mensagens:</h1>
+            <div class="campoDeMensagens"></div>
+
+            <div class="enviodeMensagens">
+                <input type="text" class="inputMensagem" id="inputMensagem" placeholder="Escreva sua Mensagem.">
+                <button class="EnvioMensagem" id="EnvioMensagem">>></button>
+            </div>
+        </div>
+        
+
+    </section>
+
+
+    <script src="Javito.js"></script>
+</body>
+</html>

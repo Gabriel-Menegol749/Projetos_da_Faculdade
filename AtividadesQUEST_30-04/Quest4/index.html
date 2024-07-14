@@ -1,0 +1,33 @@
+<!-- Questão 4: Crie um servidor contendo um formulário onde é possível inserir um salário e
+um valor de aumento (em reais). O servidor deve calcular e responder para o
+usuário qual o valor do novo salário e qual a porcentagem correspondente do aumento.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest4</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+    <section class="menuDoCalc">
+        <div class="Calculos">
+            <label for="Salario">Escreva seu Salário atual!</label>
+            <input type="text" class="Salario" id="Salario" placeholder="R$">
+
+            <label for="AumentodeSalario" class="Aumento">Escreva seu aumento!</label>
+            <input type="text" class="AumentodeSalario" id="AumentodeSalario" placeholder="R$">
+
+            <button id="Calc">Calcular</button>
+
+            <label for="porcentagem">Porcentagem do aumento: <span id="porcentagemdeAmento">0%</span></label>
+        </div>
+    </section>
+
+
+    <script src="Javito.Js"></script>
+</body>
+</html>
